@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 @Getter
 @Entity
 @NoArgsConstructor
+@Table(name = "information", schema = "football")
 public class Information {
 
     @Id
