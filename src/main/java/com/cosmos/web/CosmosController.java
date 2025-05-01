@@ -18,7 +18,7 @@ public class CosmosController {
     @GetMapping("/")
     public String display ()
     {
-        return "/cosmos.html";
+        return "cosmos";
     }
 
     @GetMapping("/son/{id}")
